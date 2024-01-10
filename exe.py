@@ -1,4 +1,4 @@
-import test
+import AoC23_D12.algo as algo
 
 def readf():
     data = []
@@ -12,5 +12,5 @@ if __name__ == '__main__':
     data = readf()
     sum=0
     for d in data:
-        sum += test.check(d[0],d[1])
+        sum += algo.check(d[0],d[1])
     print(sum)
